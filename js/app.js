@@ -5,14 +5,14 @@ $(function(){
 	var alternate = true;
 	var player
 	var p2position = 0;
-	var snakes = [
+	var bananas = [
 			[42, 27],
 			[48, 24],
 			[45, 31],
 			[26, 5],
 			[15, 2]
 		]
-	var ladders = [
+	var monkeys = [
 			[6, 18],
 			[20, 33],
 			[31, 47],
@@ -26,23 +26,23 @@ $(function(){
 	$("h1, .btnReset, .rollButton, ul, .displayDice, #player1, #player2").show();
 	})
 		//snakes
-	function checkSnakes(position, player){
-		snakes.forEach(function(snake){
-			if (position == snake[0]){
-				position = snake[1];
+	function checkBananas(position, player){
+		bananas.forEach(function(banana){
+			if (position == banana[0]){
+				position = banana[1];
 				setTimeout(function(){
-					$('li[value="'+position+'"]').append(player);
+					$('li[value="'+position+'"]').append(player).animate();
 				}, 1000);
 			}		
 		});
 	};
 		//ladders
-		function checkLadders(position, player){
-			ladders.forEach(function(ladder){
-				if (position == ladder[0]){
-					position = ladder[1];
+		function checkMonkeys(position, player){
+			monkeys.forEach(function(monkey){
+				if (position == monkey[0]){
+					position = monkey[1];
 					setTimeout(function(){
-						$('li[value="'+position+'"]').append(player);
+						$('li[value="'+position+'"]').append(player).animate();
 					}, 1000);
 				}		
 			});
@@ -56,14 +56,14 @@ $(function(){
 		if (alternate === true) {
 			p1position = p1position + dice;
 			$('li[value="'+p1position+'"]').append(player1);
-			checkSnakes(p1position, player1);
-			checkLadders(p1position, player1);
+			checkBananas(p1position, player1);
+			checkMonkeys(p1position, player1);
 			alternate = false;
 		} else{
 			p2position = p2position + dice;
 			$('li[value="'+p2position+'"]').append(player2);
-			checkSnakes(p2position, player2);
-			checkLadders(p2position, player2);
+			checkBananas(p2position, player2);
+			checkMonkeys(p2position, player2);
 			alternate = true;
 		}
 

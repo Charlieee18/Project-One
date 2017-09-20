@@ -7,8 +7,8 @@ body {
 
 ul    {
     list-style-type: none;
-    width: 529px;
-    height: 529px;
+    width: 704px;
+    height: 704px;
     margin: 25px auto;
     border: 2px solid black;
     padding: 0;
@@ -18,8 +18,8 @@ ul    {
 li {
     background-color: #dbf9f2;
     box-sizing: border-box;
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
     display: inline-block;
     float: left;
     border: 1px solid black;
@@ -89,21 +89,28 @@ h1{
     font-family: "Arial Black", Gadget, sans-serif;
 }
 #player2{
-    background-color: #db021b;
-    width: 20px;
-    height: 20px;
+    /*background-image: url("../images/smiley1.png");*/
+    background-color: red;
+    width: 25px;
+    height: 25px;
     position: relative;
     border: 2px solid black;
     border-radius: 100px;
-    padding: 25px
+    padding: 25 0;
     margin: 25px;
     left:20px;
     right:50px;
-    text-align: center;
-    font-size: 12px; 
+
+    
     font-family: "Arial Black", Gadget, sans-serif;
+
     
     }
+/*#player2 img{
+    width:22px;
+    height:22px;
+    align-self: center;
+}*/
 .cards{
     background-color: #40f7cc;
     border-radius: 100px;
@@ -115,6 +122,14 @@ h1{
 }
 h2{
     font-family: 'Bungee Shade', cursive;
+}
+.banana{
+    background-image: url("../images/banana.jpg");
+    text-align: right;
+}
+.monkey{
+    background-image: url("../images/monkey.png");
+    text-align: right;
 }
 #startGame{
     background-color: #7b8280;
