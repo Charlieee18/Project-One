@@ -29,20 +29,25 @@ li {
 
 h1{
 	text-align: center;
+    font-family: 'Bungee Shade', cursive;
 }
 
 .btn-primary{
-    background-color: #b82af9;
+    /*background-color: #b82af9;*/
     position: relative;
     left: 20px;
-    right: 50px;
+    right: 20px;
     border: 2px solid;
-
-    
+   
 }
 .btn-primary:hover {
-    background-color: #7236e2;
+    background-color: #c78fef;
     color: white;
+}
+.rollButton{
+     background-image: url("../images/dice.jpeg");
+     width: 136px;
+     height: 136px;
 }
 .displayDice {
     
@@ -55,11 +60,12 @@ h1{
     left:20px;
     right:50px;
     font-family: "Arial Black", Gadget, sans-serif;
+    background-color: #f7f6e8;
 
 }
 #player1{
     background-color: #ffff26;
-   width: 20px;
+    width: 20px;
     height: 20px;
     position: relative;
     border: 2px solid black;
@@ -70,12 +76,13 @@ h1{
     text-align: center;
     font-size: 12px; 
     font-family: "Arial Black", Gadget, sans-serif;
+
    /* background-image: url("../project-one/images/smiley1.png");*/
 
 }
 #player2{
-    background-color: #56ef7c;
-   width: 20px;
+    background-color: #3be25c;
+    width: 20px;
     height: 20px;
     position: relative;
     border: 2px solid black;
@@ -89,11 +96,14 @@ h1{
     }
 
 #reset{
-    background-color: #f92a34;
+    background-color: #000000;
+    background-image: url("../images/reset.png");
+    width:136px;
+    height:136px;
+    background-position: center;
 }
 #reset:hover{
     background-color: #cc1f0c;
 }
-
 
 
