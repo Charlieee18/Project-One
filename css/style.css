@@ -87,10 +87,6 @@ h1{
     text-align: center;
     font-size: 12px; 
     font-family: "Arial Black", Gadget, sans-serif;
-   
-
-   /* background-image: url("../project-one/images/smiley1.png");*/
-
 }
 #player2{
     background-color: #db021b;
@@ -108,6 +104,22 @@ h1{
     font-family: "Arial Black", Gadget, sans-serif;
     
     }
+.cards{
+    background-color: #40f7cc;
+    border-radius: 100px;
+    text-align: center; 
+    font-family: 'Comfortaa', cursive
+    height: 1000px;
+    font-size: 38px;
+    padding-top: 25px;
+}
+h2{
+    font-family: 'Bungee Shade', cursive;
+}
+#startGame{
+    background-color: #7b8280;
+    color: #d7f4ec;
+}
 
 #reset{
     background-color: #ffffff;

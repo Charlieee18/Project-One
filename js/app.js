@@ -19,6 +19,12 @@ $(function(){
 			[29, 41],
 			[8, 35]
 	]
+	$(".title, .btnReset, .rollButton, ul, .displayDice, #player1, #player2").hide();
+
+	$("#startGame").one("click", function(){
+		$(".cards, #startGame").hide();
+	$("h1, .btnReset, .rollButton, ul, .displayDice, #player1, #player2").show();
+	})
 		//snakes
 	function checkSnakes(position, player){
 		snakes.forEach(function(snake){
