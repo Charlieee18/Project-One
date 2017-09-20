@@ -87,10 +87,7 @@ h1{
     text-align: center;
     font-size: 12px; 
     font-family: "Arial Black", Gadget, sans-serif;
-    display: inline-block;
-    position:absolute;
-    left: 20px;
-    top: 250px;
+   
 
    /* background-image: url("../project-one/images/smiley1.png");*/
 
@@ -109,10 +106,7 @@ h1{
     text-align: center;
     font-size: 12px; 
     font-family: "Arial Black", Gadget, sans-serif;
-    display: inline-block;
-    position:absolute;
-    left: 50px;
-    top: 250px;
+    
     }
 
 #reset{
