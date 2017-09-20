@@ -28,22 +28,24 @@ $(function(){
 		}
 
 		//snakes
+		var snakes = [
+			[42, 27],
+			[48, 24],
+			[45, 31],
+			[26, 5],
+			[15, 2]
+		]
 
-//		function snakes(){
-//			[42, 27]
-//			[48, 24]
-//			[45, 31]
-//			[26, 5]
-//			[15, 2]
-//		}
-//		function checkSnakes(){
-//		if position == snakes[0]{
-//			position = 1;
-//			setTimeout(function(){
-//			$('li[value="'+p1position+'"]').append(player);
-//			}, 1000);
-//		}
-//	};
+	// 	function checkSnakes(position, player){
+	// 		snakes.forEach(function(){
+	// 	if (position == snakes[0]){
+	// 		position = 1;
+	// 		setTimeout(function(){
+	// 		$('li[value="'+position+'"]').append(player);
+	// 		}, 1000);
+	// 	}
+	// });
+	// };
 		if (p1position == 42 ) {
 			p1position = 27;
 			setTimeout(function(){
