@@ -198,6 +198,23 @@ h2{
         position: relative;
         float: left;
     }
+    #displayDice {
+    
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 2px solid black;
+    
+    right:50px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    background-color: #f7f6e8;
+    /*display: inline-block;*/
+    float: left;
+    left: 35px;
+    text-align: center;
+    /*top: 300px;*/
+
+}
     #player1{
         margin-right: 20px;
         margin-top: 20px;

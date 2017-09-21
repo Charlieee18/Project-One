@@ -19,11 +19,11 @@ $(function(){
 			[29, 41],
 			[12, 35]
 	]
-	$(".title, .btnReset, .rollButton, ul, .displayDice, #player1, #player2").hide();
+	$(".title, .btnReset, .rollButton, ul, #displayDice, #player1, #player2").hide();
 
 	$("#startGame").one("click", function(){
 		$(".cards, #startGame").hide();
-	$("h1, .btnReset, .rollButton, ul, .displayDice, #player1, #player2").show();
+	$("h1, .btnReset, .rollButton, ul, #displayDice, #player1, #player2").show();
 	})
 		//snakes
 	function checkBananas(position, player){
@@ -55,7 +55,7 @@ $(function(){
 
 	$('.rollButton').on('click', function() {
 		var dice = 1 + Math.floor(Math.random() * 6);
-		$('.displayDice').html(dice);
+		$('#displayDice').html(dice);
 		//moves player to position on board
 		if (alternate === true) {
 			p1position = p1position + dice;
