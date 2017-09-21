@@ -42,66 +42,71 @@
 	<h1 class="title">Monkeys and Bananas</h1>
 	
 
-	<div class="displayDice"></div>
+	<div class="row">
+			<div class="col-md-2">
+				<button type="button" class="rollButton btn btn-primary"></button>
+				<button id="reset" class="btnReset btn btn-primary"></button>
+			</div>
+		<div class="col-md-8">
 	
-		<ul>
-			<li value="1">1</li>
-			<li value="2">2</li>
-			<li value="3">3</li>
-			<li value="4">4</li>
-			<li value="5">5</li>
-			<li class="monkey" value="6">6</li>
-			<li value="7">7</li>
-			<li value="14">14</li>
-			<li value="13">13</li>
-			<li class="monkey" value="12">12</li>
-			<li value="11">11</li>
-			<li value="10">10</li>
-			<li value="9">9</li>
-			<li value="8">8</li>
-			<li class="banana" value="15">15</li>
-			<li value="16">16</li>
-			<li value="17">17</li>
-			<li value="18">18</li>
-			<li value="19">19</li>
-			<li class="monkey" value="20">20</li>
-			<li value="21">21</li>
-			<li value="28">28</li>
-			<li value="27">27</li>
-			<li class="banana" value="26">26</li>
-			<li value="25">25</li>
-			<li value="24">24</li>
-			<li value="23">23</li>
-			<li value="22">22</li>
-			<li class="monkey" value="29">29</li>
-			<li value="30">30</li>
-			<li class="monkey" value="31">31</li>
-			<li value="32">32</li>
-			<li value="33">33</li>
-			<li value="34">34</li>
-			<li value="35">35</li>
-			<li class="banana" value="42">42</li>
-			<li value="41">41</li>
-			<li value="40">40</li>
-			<li value="39">39</li>
-			<li value="38">38</li>
-			<li value="37">37</li>
-			<li value="36">36</li>
-			<li value="43">43</li>
-			<li value="44">44</li>
-			<li class="banana" value="45">45</li>
-			<li value="46">46</li>
-			<li value="47">47</li>
-			<li class="banana" value="48">48</li>
-			<li value="49">49</li>
-		</li>
-	</ul>
-	<button type="button" class="rollButton btn btn-primary"></button>
-	<button id="reset" class="btnReset btn btn-primary"></button>
-
-	<div id="player1"></div>
-	<div id="player2"></div>
-	 
+			<ul>
+				<li value="1">1</li>
+				<li value="2">2</li>
+				<li value="3">3</li>
+				<li value="4">4</li>
+				<li value="5">5</li>
+				<li class="monkey" value="6">6</li>
+				<li value="7">7</li>
+				<li value="14">14</li>
+				<li value="13">13</li>
+				<li class="monkey" value="12">12</li>
+				<li value="11">11</li>
+				<li value="10">10</li>
+				<li value="9">9</li>
+				<li value="8">8</li>
+				<li class="banana" value="15">15</li>
+				<li value="16">16</li>
+				<li value="17">17</li>
+				<li value="18">18</li>
+				<li value="19">19</li>
+				<li class="monkey" value="20">20</li>
+				<li value="21">21</li>
+				<li value="28">28</li>
+				<li value="27">27</li>
+				<li class="banana" value="26">26</li>
+				<li value="25">25</li>
+				<li value="24">24</li>
+				<li value="23">23</li>
+				<li value="22">22</li>
+				<li class="monkey" value="29">29</li>
+				<li value="30">30</li>
+				<li class="monkey" value="31">31</li>
+				<li value="32">32</li>
+				<li value="33">33</li>
+				<li value="34">34</li>
+				<li value="35">35</li>
+				<li class="banana" value="42">42</li>
+				<li value="41">41</li>
+				<li value="40">40</li>
+				<li value="39">39</li>
+				<li value="38">38</li>
+				<li value="37">37</li>
+				<li value="36">36</li>
+				<li value="43">43</li>
+				<li value="44">44</li>
+				<li class="banana" value="45">45</li>
+				<li value="46">46</li>
+				<li value="47">47</li>
+				<li class="banana" value="48">48</li>
+				<li value="49">49</li>
+			
+			</ul>
+		</div>
+		<div class="col-md-2">
+			<div id="player1"></div>
+			<div id="player2"></div>
+		</div>
+	</div>	
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

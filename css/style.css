@@ -54,7 +54,6 @@ h1{
      height: 132px;
      border-radius: 100px;
      float: left;
-     margin: 0 10px ;
 }
 .displayDice {
     
@@ -153,15 +152,7 @@ h2{
 }
 
 @media (min-width: 576px) {
-    .rollButton{
-        margin: 20px;
-        margin-left: 200px; 
-    }
-    .btnReset{
-        margin: 20px;
-        margin-left: 100px;
-
-    }
+ 
     #player1{
         margin-right: 20px;
         margin-top: 20px;
@@ -198,17 +189,13 @@ h2{
 }
 @media (min-width: 992px){
     .rollbutton{
+        position: relative;
         float: left;
-        margin-top: 10px;
-        margin-bottom: 500px;
     }
 
     .btnReset{
+        position: relative;
         float: left;
-        margin: 20px;
-        margin-top: 10px;
-        margin-bottom: 500px
-
     }
     #player1{
         margin-right: 20px;
@@ -232,9 +219,9 @@ h2{
     .card-body{
         background-color: #40f7cc;
         border-radius: 100px;
-        min-height: 1000px;
+        min-height: 800px;
         min-width: 100%;
-        font-size: 50px;
+        font-size: 35px;
 
 
     }
