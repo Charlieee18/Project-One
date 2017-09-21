@@ -3,12 +3,13 @@ A running single page application to create a game similar to snakes and ladders
 
 ## Purpose:
 
-This is a HTML page styled with CSS and developed with JavaScript.
-It has been styled to be responsive with different devices.
+This was an application to showcase my skills that I have developed over the past three weeks using HTML, CSS, BootStrap, JavaScript and JQuery.
+
+It has been styled to be responsive with different devices both desktop and mobile.
 
 ## Functionality:
 
-This is a single page application which has a screen on before showing instructions for the game.
+This is a single page application which consists of an instruction page, created using html and JavaScript and styled using BootStrap. It also has a board game and player icons to be avle to move around the board.
 
 ## Implementation:
 
@@ -18,9 +19,9 @@ The game has been implemented using:
 	* Bootstrap version 4
 	* JavaScript
 	* JQuery
+	* Sublime text
+	* Google Chrome
 
-## Usage
- 
 ### Building
 
 ##Issues
