@@ -153,33 +153,95 @@ h2{
 }
 
 @media (min-width: 576px) {
-.rollButton{
-    margin: 20px;
-    margin-left: 200px; 
-}
-.btnReset{
-    margin: 20px;
-    margin-left: 100px;
+    .rollButton{
+        margin: 20px;
+        margin-left: 200px; 
+    }
+    .btnReset{
+        margin: 20px;
+        margin-left: 100px;
 
-}
-#player1{
-    margin-right: 20px;
-    margin-top: 20px;
-    float: right;
+    }
+    #player1{
+        margin-right: 20px;
+        margin-top: 20px;
+        float: right;
 
-}
-#player2{
-    margin-right: 20px;
-    margin-top: 20px;
-    float: right;
+    }
+    #player2{
+        margin-right: 20px;
+        margin-top: 20px;
+        float: right;
 
+    }
+    h1{
+        margin-top: 25px;
+    }
+    h2{
+        text-align: center;
+    }
+    .card-body{
+        background-color: #40f7cc;
+        border-radius: 100px;
+        min-height: 1000px;
+        min-width: 100%;
+        font-size: 50px;
+
+
+    }
+    }
+    #startGame{
+        background-color: #7b8280;
+        color: #d7f4ec;
+        margin-left: 300px;
+    }
 }
-.card-body{
-    background-color: #40f7cc;
-    border-radius: 100px;
-}
-#startGame{
-    background-color: #7b8280;
-    color: #d7f4ec;
-}
+@media (min-width: 992px){
+    .rollbutton{
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 500px;
+    }
+
+    .btnReset{
+        float: left;
+        margin: 20px;
+        margin-top: 10px;
+        margin-bottom: 500px
+
+    }
+    #player1{
+        margin-right: 20px;
+        margin-top: 20px;
+        float: right;
+        margin-bottom: 500px;
+
+    }
+    #player2{
+        margin-right: 20px;
+        margin-top: 20px;
+        float: right;
+
+    }
+    h1{
+        margin-top: 25px;
+    }
+    h2{
+        text-align: center;
+    }
+    .card-body{
+        background-color: #40f7cc;
+        border-radius: 100px;
+        min-height: 1000px;
+        min-width: 100%;
+        font-size: 50px;
+
+
+    }
+    }
+    #startGame{
+        background-color: #7b8280;
+        color: #d7f4ec;
+        margin-left: 300px;
+    }
 }
