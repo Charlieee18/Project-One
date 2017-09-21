@@ -57,11 +57,12 @@ After this was done the game was more or less fully working but wasn't reponsive
 ##Issues
 Making the page responsive was a challenge as the elements did not want to align in different ways depending on the size of the page.
 
+There was also the issue of having snakes and ladders on the board. Originally I was going to draw lines on the board on top of the list items but this proved to be an almost impossible job so I resolved this issue by implementing background images onto the board where the snakes and ladders would be and decided on using monkeys and bananas instead which once complete looked really good.
+
 ##Demo Site
 The demo site can be found here: 
 https://github.com/Charlieee18/Project-One
 
-##Licence
 
 
 
