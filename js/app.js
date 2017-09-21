@@ -78,12 +78,7 @@ $(function(){
 			alert("Player 2 wins")
 		}
 
-	
-
-
-
 	});
-
 
 	$("#reset").click(function(){
   		document.location.reload(true);
