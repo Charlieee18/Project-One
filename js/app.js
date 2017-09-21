@@ -17,7 +17,7 @@ $(function(){
 			[20, 33],
 			[31, 47],
 			[29, 41],
-			[8, 35]
+			[12, 35]
 	]
 	$(".title, .btnReset, .rollButton, ul, .displayDice, #player1, #player2").hide();
 
@@ -30,22 +30,26 @@ $(function(){
 		bananas.forEach(function(banana){
 			if (position == banana[0]){
 				position = banana[1];
+				$('li[value="'+position+'"]').addClass("yellow");
 				setTimeout(function(){
-					$('li[value="'+position+'"]').append(player).animate();
+					$('li[value="'+position+'"]').append(player).removeClass("yellow");
 				}, 1000);
 			}		
 		});
+		return position;
 	};
 		//ladders
 		function checkMonkeys(position, player){
 			monkeys.forEach(function(monkey){
 				if (position == monkey[0]){
 					position = monkey[1];
-					setTimeout(function(){
-						$('li[value="'+position+'"]').append(player).animate();
+					$('li[value="'+position+'"]').addClass("brown");
+						setTimeout(function(){
+						$('li[value="'+position+'"]').append(player).removeClass("brown");
 					}, 1000);
 				}		
 			});
+			return position;
 		};
 	
 
@@ -56,14 +60,14 @@ $(function(){
 		if (alternate === true) {
 			p1position = p1position + dice;
 			$('li[value="'+p1position+'"]').append(player1);
-			checkBananas(p1position, player1);
-			checkMonkeys(p1position, player1);
+			p1position = checkBananas(p1position, player1);
+			p1position = checkMonkeys(p1position, player1);
 			alternate = false;
 		} else{
 			p2position = p2position + dice;
 			$('li[value="'+p2position+'"]').append(player2);
-			checkBananas(p2position, player2);
-			checkMonkeys(p2position, player2);
+			p2position = checkBananas(p2position, player2);
+			p2position = checkMonkeys(p2position, player2);
 			alternate = true;
 		}
 

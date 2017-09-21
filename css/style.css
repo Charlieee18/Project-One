@@ -53,6 +53,8 @@ h1{
      width: 132px;
      height: 132px;
      border-radius: 100px;
+     float: left;
+     margin: 0 10px ;
 }
 .displayDice {
     
@@ -74,45 +76,36 @@ h1{
 
 }
 #player1{
-    background-color: #c504e2;
-    width: 20px;
-    height: 20px;
+    background-image: url("../images/smileyemoji.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
     position: relative;
     border: 2px solid black;
     border-radius: 100px;
-    padding: 25px
-    margin: 25px;
+    padding: 0;
+    margin: 0 10px;
     left:20px;
     right:50px;
-    text-align: center;
-    font-size: 12px; 
-    font-family: "Arial Black", Gadget, sans-serif;
+    float:right;
+    
+    
 }
 #player2{
-    /*background-image: url("../images/smiley1.png");*/
-    background-color: red;
-    width: 25px;
-    height: 25px;
+    background-image: url("../images/winkeyface.png");
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
     position: relative;
     border: 2px solid black;
     border-radius: 100px;
-    padding: 25 0;
+    padding: 0;
     margin: 25px;
     left:20px;
     right:50px;
-
-    
-    font-family: "Arial Black", Gadget, sans-serif;
-
-    
-    }
-/*#player2 img{
-    width:22px;
-    height:22px;
-    align-self: center;
-}*/
-.cards{
-    background-color: #40f7cc;
+    float: right;
     border-radius: 100px;
     text-align: center; 
     font-family: 'Comfortaa', cursive
@@ -142,9 +135,51 @@ h2{
     width:128px;
     height:128px;
     background-position: center;
+    float: left;
 }
 #reset:hover{
     background-color: #000000;
 }
 
+.brown {
+    /*background-color: #f780ef !important;*/
+    /*background-color: #a37503 !important;*/
+    background-color: #d6a52c !important;
 
+
+}
+.yellow {
+    background-color: #ffee00 !important;
+}
+
+@media (min-width: 576px) {
+.rollButton{
+    margin: 20px;
+    margin-left: 200px; 
+}
+.btnReset{
+    margin: 20px;
+    margin-left: 100px;
+
+}
+#player1{
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+
+}
+#player2{
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+
+}
+.card-body{
+    background-color: #40f7cc;
+    border-radius: 100px;
+}
+#startGame{
+    background-color: #7b8280;
+    color: #d7f4ec;
+}
+}
