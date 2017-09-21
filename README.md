@@ -1,4 +1,5 @@
 # Monkeys and Bananas
+A running single page application to create a game similar to snakes and ladders.
 
 ## Purpose:
 
