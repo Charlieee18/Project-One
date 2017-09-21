@@ -15,7 +15,7 @@ $(function(){
 	var monkeys = [
 			[6, 18],
 			[20, 33],
-			[31, 47],
+			[37, 47],
 			[29, 41],
 			[12, 35]
 	]
@@ -31,6 +31,7 @@ $(function(){
 			if (position == banana[0]){
 				position = banana[1];
 				$('li[value="'+position+'"]').addClass("yellow");
+				bananaNoise();
 				setTimeout(function(){
 					$('li[value="'+position+'"]').append(player).removeClass("yellow");
 				}, 1000);
@@ -87,5 +88,9 @@ $(function(){
   	function monkeyNoise(){
   		var monkeyNoise = $("#monkey")[0];
   		monkeyNoise.play();
+  	}
+  	function bananaNoise(){
+  		var bananaNoise = $("#banana")[0];
+  		bananaNoise.play();
   	}
 });
