@@ -44,6 +44,7 @@ $(function(){
 				if (position == monkey[0]){
 					position = monkey[1];
 					$('li[value="'+position+'"]').addClass("brown");
+					monkeyNoise();
 						setTimeout(function(){
 						$('li[value="'+position+'"]').append(player).removeClass("brown");
 					}, 1000);
@@ -83,4 +84,8 @@ $(function(){
 	$("#reset").click(function(){
   		document.location.reload(true);
   	});
+  	function monkeyNoise(){
+  		var monkeyNoise = $("#monkey")[0];
+  		monkeyNoise.play();
+  	}
 });
