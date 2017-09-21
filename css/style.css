@@ -177,10 +177,11 @@ h2{
         min-height: 1000px;
         min-width: 100%;
         font-size: 50px;
+        font-family: 'Indie Flower', cursive;
 
 
     }
-    }
+    
     #startGame{
         background-color: #7b8280;
         color: #d7f4ec;
@@ -222,6 +223,7 @@ h2{
         min-height: 750px;
         min-width: 750px;
         font-size: 35px;
+       font-family: 'Indie Flower', cursive;
 
 
     }
